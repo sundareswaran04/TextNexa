@@ -112,6 +112,7 @@ background-color:#210183;
         margin-left: 5px;
         width: calc(100% - 40px);
         height:600px;
+        color:black;
       }
     
       .result {
