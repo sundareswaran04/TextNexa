@@ -1,0 +1,136 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  h1 {
+    display: inline;
+    font-weight: bolder;
+  }
+  
+  body {
+    background-color: black;
+  }
+  
+  .container {
+    padding: 10px;
+    position: relative;
+    width: 1000px;
+    height: 400px;
+    background-color: #151515;
+    margin-left: 200px;
+    border-radius: 10px;
+  }
+  
+  #Copy-to-Clipboard {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    border: none;
+    background-color: #3703d3;
+    cursor:pointer;
+  }
+  
+  .input-section {
+    text-align: left; /* Updated alignment to left */
+    padding: 20px;
+    display: flex; /* Use flexbox for better alignment */
+    justify-content: space-between; /* Add space between elements */
+    width: 800px;
+    height: 60px;
+    margin-left: 300px;
+  }
+  
+  #request {
+    font-weight:bolder;
+    width: calc(100% - 120px); /* Adjusted width to leave space for buttons */
+    height: 40px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 5px;
+  }
+  
+  #send,
+  #clear {
+    height: 50px;
+    width: 50px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  #send {
+    background-color: #6e3cff;
+    border-bottom-left-radius:0px;
+    border-top-left-radius:0px;
+  }
+  img{
+    width:20px;
+    height:20px;
+    display: inline;
+    margin-left:10px;
+    margin-right:10px;
+  }
+  
+  #clear {
+    margin-left: 10px;
+    background-color: #ff3939;
+  }
+  
+  .result {
+    white-space:pre;
+    font-weight: bolder;
+    color: white;
+    width: 980px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #333333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-height: 380px;
+    margin: auto;
+    overflow-y: auto;
+  }
+  #send:hover{
+    background-color:#1c0269;
+  }
+  #clear:hover{
+    background-color:#af0000;
+  }
+  #Copy-to-Clipboard:hover{
+background-color:#210183;
+  }
+  .credits{
+    text-align:center;
+  }
+  @media (max-width:480px) {
+    .container {
+        margin-left: 5px;
+        width: calc(100% - 20px);
+      }
+    
+      .result {
+        white-space:pre;
+        font-weight: bolder;
+        color: white;
+        width:360px;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: #333333;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        max-height: 380px;
+        margin: auto;
+        overflow-y: auto;
+
+      }
+    
+      .input-section {
+        margin-left: 10px;
+        width: calc(100% - 20px);
+      }
+    
+  }
