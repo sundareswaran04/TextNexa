@@ -110,14 +110,14 @@ background-color:#210183;
   @media (max-width:480px) {
     .container {
         margin-left: 5px;
-        width: calc(100% - 20px);
+        width: calc(100% - 40px);
       }
     
       .result {
         white-space:pre;
         font-weight: bolder;
         color: white;
-        width:360px;
+        width:350px;
         padding: 10px;
         border-radius: 10px;
         background-color: #333333;
@@ -129,6 +129,7 @@ background-color:#210183;
       }
     
       .input-section {
+          padding:5px;
         margin-left: 10px;
         width: calc(100% - 20px);
       }
