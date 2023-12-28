@@ -118,7 +118,7 @@ background-color:#210183;
         white-space:pre;
         font-weight: bolder;
         color: white;
-        width:340px;
+        width: calc(100% - 60px);;
         padding: 10px;
         border-radius: 10px;
         background-color: #333333;
