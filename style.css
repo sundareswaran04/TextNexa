@@ -94,6 +94,7 @@
     max-height: 380px;
     margin: auto;
     overflow-y: auto;
+      display:inline-block;
   }
   #send:hover{
     background-color:#1c0269;
