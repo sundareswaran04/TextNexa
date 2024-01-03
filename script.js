@@ -8,7 +8,7 @@ window.Clear = async function() {
 window.generateContent = async function() {
   const API_KEY = 'AIzaSyDMFkSWZgh3l_FP0o6nCt4HfkJI6hgPqi8'; // Replace with your actual API key
   const genAI = new GoogleGenerativeAI(API_KEY);
-
+document.getElementById("output").style.display="block";
   async function run() {
     const model = genAI.getGenerativeModel({ model: "gemini-pro" });
     const prompt = document.getElementById("request").value;
