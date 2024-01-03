@@ -29,6 +29,7 @@ window.Clear = async function() {
 }
 
 window.generateContent = async function() {
+    document.getElementById("result").style.display="block";
   const API_KEY = 'AIzaSyDMFkSWZgh3l_FP0o6nCt4HfkJI6hgPqi8'; // Replace with your actual API key
   const genAI = new GoogleGenerativeAI(API_KEY);
 
