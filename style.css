@@ -94,7 +94,8 @@
     max-height: 380px;
     margin: auto;
     overflow-y: auto;
-      display:inline-block;
+      display:flex;
+      flex-wrap:wrap;
   }
   #send:hover{
     background-color:#1c0269;
